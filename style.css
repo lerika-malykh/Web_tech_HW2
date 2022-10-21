@@ -1,0 +1,36 @@
+h1,h3{
+    color: rgb(48, 48, 89);
+	font-family: 'Appetite';
+}
+.mmm{
+    width: 900px;
+}
+@font-face {
+	font-family: 'Caviar Dreams';
+	src: url('../fonts/caviar_dreams.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/caviar_dreams.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/caviar_dreams.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/caviar_dreams.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/caviar_dreams.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/caviar_dreams.svg#caviar_dreams') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+@font-face {
+	font-family: 'Appetite';
+	src: url('../fonts/appetite.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/appetite.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/appetite.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/appetite.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/appetite.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/appetite.svg#appetite') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+body{
+    background-color:rgb(224, 234, 251);
+    font-family: 'Caviar Dreams';
+}
+.wrapper {
+    max-width: 1170px;
+	margin-left: auto;
+    margin-right: auto;
+	padding-left: 16px;
+    padding-right: 16px;
+}
